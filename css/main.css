@@ -1,0 +1,180 @@
+/*****BASE STYLES*****/
+body {
+  background: #1f202b;
+  font-family: 'Poiret One', cursive;
+  font-size: 22px;
+  color: #ffffff;
+}
+.full-width {
+  width: 1200px;
+  margin: 0 auto;
+  overflow: auto;
+}
+.half-width {
+  width: 600px;
+  overflow: auto;
+}
+.third-width {
+  width: 400px;
+  overflow: auto;
+}
+/*****HEADER*****/
+header {
+  height: 40px;
+  margin: 10px;
+}
+h2 {
+  font-family: 'Berkshire Swash', cursive;
+  color: #fa0075;
+  font-size: 30px;
+  text-align: left;
+  padding: 10px 0 0 20px;
+  box-sizing: border-box;
+}
+header div {
+  float: left;
+}
+div nav {
+  text-align: right;
+}
+nav ul li {
+  display: inline-block;
+}
+nav ul li a {
+  color: #ef8223;
+  font-size: 25px;
+  text-decoration: none;
+  padding: 10px;
+}
+/*****BANNER*****/
+.banner {
+  background: url('../img/hero-background.png');
+  height: 600px;
+}
+h1 {
+  font-family: 'Rancho', cursive;
+  font-size: 72px;
+  padding: 100px 0 0 200px;
+}
+h1 span {
+  color: #fa0075;
+}
+/*****PORTFOLIO*****/
+.portfolio {
+  margin: 10px;
+  padding: 10px;
+  clear: both;
+  height: 1550px;
+}
+h3{
+  font-family: 'Rancho', cursive;
+  font-size: 36px;
+  color: #fa0075;
+  text-align: center;
+}
+span {
+  font-weight: bold;
+  color: #ef8223;
+}
+.recipe {
+  height: 500px;
+  padding: 10px;
+}
+.recipe p {
+  float: left;
+  width: 400px;
+  padding: 160px 10px 10px 40px;
+}
+.recipe img {
+  width: 400px;
+  float: left;
+  padding: 10px 40px 10px 220px;
+}
+.vision {
+  height: 300px;
+  padding: 10px;
+}
+.vision p {
+  width: 400px;
+  text-align: right;
+  padding-left: 220px;
+  padding-top: 35px;
+  float: left;
+}
+.vision img {
+  width: 400px;
+  padding: 50px 0px 0px 40px;
+}
+.first-website {
+  height: 600px;
+  padding: 10px;
+}
+.first-website p {
+  float: left;
+  width: 400px;
+  padding: 250px 10px 10px 40px;
+}
+.first-website img {
+  float: left;
+  width: 400px;
+  padding: 30px 10px 20px 220px;
+}
+/*****ABOUT*****/
+.about {
+  background: url('../img/about-me.png');
+  height: 550px;
+  clear: both;
+}
+.about h3 {
+  margin: 0;
+}
+#left-about {
+  float: left;
+  padding-left: 40px;
+  padding-top: 0;
+}
+#right-about {
+  float: left;
+  padding-top: 0;
+
+}
+.about img {
+  width: 250px;
+  padding: 50px 0 0 60px;
+  text-align: center;
+}
+/*****CONTACT*****/
+.contact {
+  height: 400px;
+  margin: 10px;
+  padding: 10px;
+  clear: both;
+  box-sizing: border-box;
+}
+#hire {
+  text-align: center;
+  float: left;
+}
+#email {
+  text-decoration: none;
+  color: #fa0075;
+}
+#follow {
+  text-align: center;
+  float: left;
+}
+.contact ul li {
+  display: inline-block;
+  padding: 10px;
+}
+#meet {
+  float: left;
+  line-height: 30px;
+  margin: 0;
+  text-align: center;
+}
+/*****FOOTER*****/
+footer {
+  text-align: center;
+  font-size: 20px;
+}
